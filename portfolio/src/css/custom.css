@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #40bbe4;
   --ifm-background-color: #0d0b0e;
 }
+
+.hero__title {
+  color: #ebedf0;
+  text-shadow: 1px 1px 5px #000, -1px -1px 5px #000, 1px -1px 5px #000, -1px 1px 5px #000;
+
+}
+
+.hero__subtitle {
+  font-size: 1.8rem;
+  color: #ebedf0;
+  text-shadow: 1px 1px 5px #000, -1px -1px 5px #000, 1px -1px 5px #000, -1px 1px 5px #000;
+}

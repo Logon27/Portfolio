@@ -3,6 +3,13 @@
  * and scoped locally.
  */
 
+.heroImage {
+  background-image: url('@site/static/img/splash-image.jpg');
+  background-position: 100% 94%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
