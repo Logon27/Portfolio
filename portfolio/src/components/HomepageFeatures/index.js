@@ -8,7 +8,12 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className={styles.programmingList}>Java - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤ ⬤</span></p>
+          <p className={styles.programmingList}>C - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤ ⬤</span></p>
+          <p className={styles.programmingList}>Python - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤</span> ⬤</p>
+          <p className={styles.programmingList}>SQL - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤</span> ⬤ ⬤</p>
+          <p className={styles.programmingList}>Typescript - <span className={styles.programmingDotFull}>⬤ ⬤</span> ⬤ ⬤ ⬤</p>
+          <p className={styles.proficiencyNote}>(Proficiency ranked 1 to 5. Orange being filled)</p>
       </>
     ),
   },
@@ -25,11 +30,14 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Interests',
+    title: 'Misc Skills',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <p className={styles.miscSkills}>Docker</p>
+        <p className={styles.miscSkills}>Kubernetes</p>
+        <p className={styles.miscSkills}>Azure Pipelines</p>
+        <p className={styles.miscSkills}>React</p>
       </>
     ),
   },
