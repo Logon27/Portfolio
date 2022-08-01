@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Programming Languages',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/programming-monitor.svg').default,
     description: (
       <>
           <p className={styles.programmingList}>Java - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤ ⬤</span></p>
@@ -19,7 +19,7 @@ const FeatureList = [
   },
   {
     title: 'Contact Information',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/smartphone.svg').default,
     description: (
       <>
         <b>Name:</b> Logan Zehm<br></br>
@@ -31,7 +31,7 @@ const FeatureList = [
   },
   {
     title: 'Misc Skills',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/edit-tools-ruler.svg').default,
     description: (
       <>
         <p className={styles.miscSkills}>Docker</p>

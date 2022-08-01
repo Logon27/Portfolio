@@ -59,6 +59,7 @@ const config = {
     ({
       navbar: {
         title: 'Homepage',
+        hideOnScroll: false,
         logo: {
           alt: 'My Github Profile Pic',
           src: 'img/circular-profile-picture.png',
