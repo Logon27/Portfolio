@@ -6,24 +6,24 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #292929;
-  --ifm-color-primary-dark: #252525;
-  --ifm-color-primary-darker: #232323;
-  --ifm-color-primary-darkest: #1d1d1d;
-  --ifm-color-primary-light: #2d2d2d;
-  --ifm-color-primary-lighter: #2f2f2f;
-  --ifm-color-primary-lightest: #353535;
+  --ifm-color-primary: #009474;
+  --ifm-color-primary-dark: #008568;
+  --ifm-color-primary-darker: #007e63;
+  --ifm-color-primary-darkest: #006851;
+  --ifm-color-primary-light: #00a380;
+  --ifm-color-primary-lighter: #00aa85;
+  --ifm-color-primary-lightest: #00c097;
 }
 
 /* setting the theme colors */
 [data-theme='dark'] {
-  --ifm-color-primary: #d6d6d6;
-  --ifm-color-primary-dark: #c1c1c1;
-  --ifm-color-primary-darker: #b6b6b6;
-  --ifm-color-primary-darkest: #969696;
-  --ifm-color-primary-light: #ebebeb;
-  --ifm-color-primary-lighter: #f6f6f6;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary: #009474;
+  --ifm-color-primary-dark: #008568;
+  --ifm-color-primary-darker: #007e63;
+  --ifm-color-primary-darkest: #006851;
+  --ifm-color-primary-light: #00a380;
+  --ifm-color-primary-lighter: #00aa85;
+  --ifm-color-primary-lightest: #00c097;
 }
 
 /* Had to set the same color for both themes. Not sure why. Some weird infima interaction */
@@ -38,7 +38,6 @@ html[data-theme='light'] footer {
 .hero__title {
   color: #ebedf0;
   text-shadow: 1px 1px 5px #000, -1px -1px 5px #000, 1px -1px 5px #000, -1px 1px 5px #000;
-
 }
 
 .hero__subtitle {

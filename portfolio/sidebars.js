@@ -25,11 +25,10 @@ const sidebars = {
 
   projectsSidebar: [
     'my-projects/huffman',
-    'my-projects/testing',
+    'my-projects/vigenere-cipher',
   ],
   aboutSidebar: [
     'about/aboutme',
-    'about/testing2',
   ],
 };
 
