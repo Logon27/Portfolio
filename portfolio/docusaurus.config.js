@@ -34,18 +34,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,12 +56,17 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: 'my-projects/huffman',
             position: 'left',
-            label: 'Tutorial',
+            label: 'My Projects',
+            sidebarId: 'projectsSidebar'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: 'about/aboutme',
+            position: 'left',
+            label: 'About Me',
+            sidebarId: 'aboutSidebar'
+          },
           {
             href: 'https://github.com/Logon27',
             label: 'GitHub',

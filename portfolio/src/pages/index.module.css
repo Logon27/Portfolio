@@ -4,7 +4,7 @@
  */
 
 .heroImage {
-  background-image: url('@site/static/img/splash-image.jpg');
+  background-image: url('@site/static/img/splash-image-low.jpg');
   background-position: 100% 30%;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 600px) {
   .heroImage {
-    background-image: url('@site/static/img/splash-image.jpg');
+    background-image: url('@site/static/img/splash-image-low.jpg');
     background-position: 100% 30%;
     background-size: auto 150%;
     background-repeat: no-repeat;
