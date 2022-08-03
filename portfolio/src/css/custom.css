@@ -13,6 +13,8 @@
   --ifm-color-primary-light: #00a380;
   --ifm-color-primary-lighter: #00aa85;
   --ifm-color-primary-lightest: #00c097;
+
+  --ifm-h4-font-size: 1.1rem;
 }
 
 /* setting the theme colors */

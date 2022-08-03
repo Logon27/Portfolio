@@ -2,13 +2,13 @@
 title: Huffman Coding
 ---
 
-# [Huffman](https://github.com/Logon27/Huffman)
+# [Huffman Coding](https://github.com/Logon27/Huffman)
 
 ---
 
 ## About The Project
 
-This program was a college assignment to implement huffman coding. Huffman coding is a lossless data compression algorithm. This program takes in text files as input (the file names are currently hardcoded). The main program files is called `Huffman.java`. It has the ability to both compress files and then decode those compressed files. The compress function also returns the length of the data encoded so you can see how much was compressed. This program runs pretty fast as well. I compressed the bible and it was nearly instant on my machine. It is not a visually stunning program, but lossless data compression is a really fascinating topic. You can read more about huffman coding [here](https://en.wikipedia.org/wiki/Huffman_coding).
+This program was a college assignment to implement huffman coding. Huffman coding is a lossless data compression algorithm. This program takes in text files as input (the file names are currently hardcoded). The main program files is called `Huffman.java`. It has the ability to both compress files and then decode those compressed files. The compress function also returns the length of the data encoded so you can see how much was compressed. This program runs pretty fast as well. I compressed the bible and it was nearly instant on my machine. It is not a visually stunning program, but lossless data compression is a really fascinating topic. Unfortunately, there are not really any example images of the program to show because it basically just compresses your data in a non-readable format (i.e. not much to look at). You can read more about huffman coding [here](https://en.wikipedia.org/wiki/Huffman_coding).
 
 ## Main program functions
 

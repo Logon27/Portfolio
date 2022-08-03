@@ -24,6 +24,7 @@ const sidebars = {
   // items: ['my-projects/huffman','my-projects/testing'],
 
   projectsSidebar: [
+    'my-projects/notepad-light',
     'my-projects/huffman',
     'my-projects/vigenere-cipher',
   ],

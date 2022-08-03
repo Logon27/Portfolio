@@ -56,7 +56,7 @@ const config = {
         },
         items: [
           {
-            to: 'my-projects/huffman',
+            to: 'my-projects/notepad-light',
             position: 'left',
             label: 'My Projects',
             sidebarId: 'projectsSidebar'
