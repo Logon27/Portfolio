@@ -56,7 +56,7 @@ const config = {
         },
         items: [
           {
-            to: 'my-projects/notepad-light',
+            to: 'my-projects/project-viznet',
             position: 'left',
             label: 'My Projects',
             sidebarId: 'projectsSidebar'

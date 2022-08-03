@@ -8,7 +8,7 @@ title: Notepad-Light
 
 ## About The Project
 
-One weekend I was very bored and wanted to understand how to create GUI applications with C++. After searching online a bit I found the easiest way was to use a cross-platform graphical framework called Qt. When deciding what to make I figured I would recreate notepad from Windows without any special features like zooming, word wrapping, etc. 
+One weekend I was very bored and wanted to understand how to create GUI applications with C++. After searching online a bit I found the easiest way was to use a cross-platform graphical framework called Qt. When deciding what to make I figured I would recreate notepad from Windows without any special features like zooming, word wrapping, etc. This notepad-light was born. A very basic text editting program written using C++ and QT.
 
 #### File features:
 * New File
