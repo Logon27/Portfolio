@@ -16,7 +16,7 @@ This program takes in a MIPS `.asm` file from standard input and writes the mach
 * .word w1, ... , wn (store n 32-bit integer values in successive memory words)
 * .space n (allocate n words)
 
-## Supported instructions:
+## Supported Instructions:
 * addiu
 * addu
 * and
@@ -34,10 +34,10 @@ This program takes in a MIPS `.asm` file from standard input and writes the mach
 * sw
 * syscall
 
-## Example input file:
+## Example Input File:
 
 <img src={require('@site/static/img/my-projects/assembler-1.png').default}/>
 
-## Example output file:
+## Example Output File:
 
 <img src={require('@site/static/img/my-projects/assembler-2.png').default}/>

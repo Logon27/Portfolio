@@ -32,6 +32,8 @@ const sidebars = {
       items: ['my-projects/mips-assembler','my-projects/mips-simulator'],
       collapsed: false,
     },
+    'my-projects/data-cache-simulator',
+    'my-projects/neural-network-canvas',
     'my-projects/socket-chatroom',
     'my-projects/simple-shell',
     'my-projects/c-archive',
