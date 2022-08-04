@@ -8,7 +8,7 @@ title: C-Archive
 
 ## About The Project
 
-This is an archiving program written in C. It basically can take one or more files and zip them up into a tar ball. There are actually two programs. One to archive the file(s) and one to un-archive them. The program also has validation measures to make sure that the file it is actually trying to unzip is a valid archive created by the ctar program.
+This is an archiving program written in C. It basically can take one or more files and zip them up into a tar ball. There are actually two programs. One to archive the file(s) and one to un-archive them. The program also has validation measures to make sure that the file it is actually trying to unzip is a valid archive created by the ctar program. These programs have a makefile for compilation. So as long as you have `gcc` and `make` installed you can easily compile the programs with `make`.
 
 ### Archiving Files
 
@@ -28,4 +28,5 @@ This program just unzips your tar ball into the current directory.
 ## Executing The Program
 
 In this example I created an empty archive. Then appended the `README.md` file to the archive. Deleted the original README.md file. Then I unzipped the archive. You do not have to start with an empty archive. I was just showing that the functionality to append files works. You can also specify more than one filename to archive.
+
 <img src={require('@site/static/img/my-projects/c-archive-1.png').default}/>

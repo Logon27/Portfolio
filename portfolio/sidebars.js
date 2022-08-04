@@ -26,6 +26,7 @@ const sidebars = {
   projectsSidebar: [
     'my-projects/project-viznet',
     'my-projects/socket-chatroom',
+    'my-projects/simple-shell',
     'my-projects/c-archive',
     'my-projects/notepad-light',
     'my-projects/huffman',
