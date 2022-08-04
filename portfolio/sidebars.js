@@ -26,6 +26,12 @@ const sidebars = {
   projectsSidebar: [
     'my-projects/project-viznet',
     'my-projects/array-sorting-visualized',
+    {
+      type: 'category',
+      label: 'Assembler / Simulator',
+      items: ['my-projects/mips-assembler','my-projects/mips-simulator'],
+      collapsed: false,
+    },
     'my-projects/socket-chatroom',
     'my-projects/simple-shell',
     'my-projects/c-archive',
