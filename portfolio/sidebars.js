@@ -25,6 +25,7 @@ const sidebars = {
 
   projectsSidebar: [
     'my-projects/project-viznet',
+    'my-projects/array-sorting-visualized',
     'my-projects/socket-chatroom',
     'my-projects/simple-shell',
     'my-projects/c-archive',
