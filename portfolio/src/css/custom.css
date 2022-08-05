@@ -17,6 +17,10 @@
   --ifm-h4-font-size: 1.1rem;
 }
 
+b[class*="navbar__title"] {
+  font-size: 1.05rem;
+}
+
 /* setting the theme colors */
 [data-theme='dark'] {
   --ifm-color-primary: #009474;
@@ -62,4 +66,21 @@ html[data-theme='light'] footer {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.navbar-icon {
+  border-radius: 50%;
+  display: flex;
+  height: 32px;
+  width: 32px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  padding: 0;
+  transition: background var(--ifm-transition-fast);
+}
+
+.navbar-icon:hover {
+  background: var(--ifm-color-emphasis-200);
+  color: inherit;
 }
