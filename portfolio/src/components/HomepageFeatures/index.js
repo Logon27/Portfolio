@@ -8,12 +8,14 @@ const FeatureList = [
     Svg: require('@site/static/img/programming-monitor.svg').default,
     description: (
       <>
+        <span className={styles.programmingListContainer}>
           <p className={styles.programmingList}>Java - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤ ⬤</span></p>
           <p className={styles.programmingList}>C - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤ ⬤</span></p>
           <p className={styles.programmingList}>Python - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤</span> ⬤</p>
           <p className={styles.programmingList}>SQL - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤</span> ⬤ ⬤</p>
           <p className={styles.programmingList}>Typescript - <span className={styles.programmingDotFull}>⬤ ⬤</span> ⬤ ⬤ ⬤</p>
           <p className={styles.proficiencyNote}>(Proficiency ranked 1 to 5. Orange being filled)</p>
+        </span>
       </>
     ),
   },
