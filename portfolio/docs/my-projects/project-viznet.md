@@ -3,7 +3,7 @@ title: Project Viznet
 toc_max_heading_level: 2
 ---
 
-# Project Viznet
+# [Project Viznet](https://github.com/Logon27/Project-VizNet)
 
 ---
 
@@ -16,7 +16,7 @@ Project Viznet is a neural network visualization program. It helps beginners vis
 ---
 
 <div class="videoWrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GffIyL9l3gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GffIyL9l3gc" title="Project Viznet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
 </div>
 
 [Link to video if embedded video does not work.](https://youtu.be/GffIyL9l3gc)

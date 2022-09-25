@@ -1,8 +1,8 @@
 ---
-title: Neural Network Canvas
+title: Neural Network Canvas (Old)
 ---
 
-# [Neural Network Canvas](https://github.com/Logon27/Neural-Network-Canvas)
+# [Neural Network Canvas (Old)](https://github.com/Logon27/Neural-Network-Canvas)
 
 ---
 

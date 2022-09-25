@@ -25,6 +25,7 @@ const sidebars = {
 
   projectsSidebar: [
     'my-projects/project-viznet',
+    'my-projects/digit-recognition-canvas',
     'my-projects/array-sorting-visualized',
     {
       type: 'category',
