@@ -19,13 +19,17 @@ pip install -r requirements.txt
 
 ## Testing Out A Network
 
-Modify the network object in **mnist.py** or **xor.py** to test out your own network.
+Modify the network object in **xor.py**, **mnist.py**, or **mnist_conv** to test out your own network.
 
 ```
 python xor.py
 ```
 ```
 python mnist.py
+```
+```
+# Convolutional implementation for mnist
+python mnist_conv.py
 ```
 
 ---
@@ -34,7 +38,10 @@ python mnist.py
 
 ```python
 Dense(numInputNeurons, numOutputNeurons) # For weight manipulation
+Convolutional((inputDepth, inputWidth, inputHeight), kernelSize, numKernels)
 Softmax() # For output percentage predictions
+Reshape() # Modifies the shape of the numpy arrays passed between layers
+Flatten() # Flattens a numpy array into a 2D matrix with a single column
 
 # Activation Functions
 Sigmoid()
@@ -45,7 +52,7 @@ LeakyRelu() # Leaky Relu not validated
 ## Network Class Usage
 
 ```python
-# Network layers are initalized as list
+# Network layers are initalized as a list
 network_layers = [
     Dense(28 * 28, 70),
     Sigmoid(),
