@@ -42,6 +42,7 @@ Convolutional((inputDepth, inputWidth, inputHeight), kernelSize, numKernels)
 Softmax() # For output percentage predictions
 Reshape() # Modifies the shape of the numpy arrays passed between layers
 Flatten() # Flattens a numpy array into a 2D matrix with a single column
+Dropout(probability) # Randomly drops layer outputs based on a probability to prevent overfitting
 
 # Activation Functions
 Sigmoid()
@@ -85,8 +86,7 @@ This simple neural network library does provide support for Cupy to gain CUDA su
 
 ## TODO
 
+- Package And Host The Library
 - Implement More Loss Functions
 - Validate Leaky Relu Activation Function
-- Implement Convolutional Layer
-- Implement Flatten Layer
-- Implement Dropout Layer
+- Implement Max Pooling
