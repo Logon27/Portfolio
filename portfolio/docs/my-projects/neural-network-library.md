@@ -8,9 +8,12 @@ title: Neural Network Library
 
 In the process of making my [Digit Recognition Canvas](./digit-recognition-canvas.md) I realized I had basically built an entire neural network library in the process. Albeit a simple one, I decided to take most of the code I developed for my Digit Recognition Canvas and fork it off into its own neural network library. That is what this project is. You can use this project to experiment on your own with neural networks or use it for a project of your own. It operates a lot like most modern deep learning libraries do (except with fewer features). I plan to expand this library as I learn more about deep learning, but still keep it simple enough to understand for beginners. The entire project almost exclusively uses numpy for its implementation. The only exception being scipy which is used for special function implementations to handle computational edge cases (like log1p). Feel free to experiment with the library, suggest improvements, or utilize it to make your own projects!
 
+For a full list of functionality and usage, please check out the project on [github](https://github.com/Logon27/Neural-Network-Library).
+
 ## Creating A Virtual Environment
 
-Note: There is a different activate script for Linux / MacOS.
+Python 3.10 is recommended for using this neural network library
+
 ```
 python -m venv venvNeuralNetworkLibrary
 venvNeuralNetworkLibrary/scripts/activate.bat
@@ -19,17 +22,29 @@ pip install -r requirements.txt
 
 ## Testing Out A Network
 
-Modify the network object in **xor.py**, **mnist.py**, or **mnist_conv** to test out your own network.
+Test your network against one of these datasets...
+```
+# move into the training examples directory
+cd training_examples
+# then execute one of the scripts below...
+```
 
 ```
 python xor.py
 ```
+
 ```
 python mnist.py
 ```
+
 ```
-# Convolutional implementation for mnist
+# Convolutional neural network implementation for mnist
 python mnist_conv.py
+```
+
+```
+# Fully convolutional network implementation for mnist
+python mnist_fcn.py
 ```
 
 ---
@@ -53,6 +68,9 @@ LeakyRelu() # Leaky Relu not validated
 ## Network Class Usage
 
 ```python
+# Import all neural network classes.
+from nn import *
+
 # Network layers are initalized as a list
 network_layers = [
     Dense(28 * 28, 70),
@@ -63,9 +81,9 @@ network_layers = [
     Softmax()
 ]
 
-# Create a network object (Split on multiple lines for readability)
-network = Network(network_layers, loss_function, loss_function_prime, x_train_set, y_train_set, \
-                    x_test_set, y_test_set, epochs=10, learning_rate=0.1, batch_size=1)
+# Create a network object
+network = Network(network_layers, TrainingSet(input_train, output_train, input_test, output_test), \
+    loss_function, loss_function_prime, epochs=10, batch_size=1)
 
 # Train the network
 network.train()
@@ -74,15 +92,8 @@ network.train()
 prediction_array = network.predict(input_array)
 
 # Save the network to a file
-saveNetwork(network, "mnistNetwork.pkl")
+saveNetwork(network, "mnist_network.pkl")
 
 # Load the network from a file
-network = loadNetwork("mnistNetwork.pkl")
+network = loadNetwork("mnist_network.pkl")
 ```
-
-## TODO
-
-- Package And Host The Library
-- Implement More Loss Functions
-- Validate Leaky Relu Activation Function
-- Implement Max Pooling
