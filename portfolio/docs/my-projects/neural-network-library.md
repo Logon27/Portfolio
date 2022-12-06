@@ -1,14 +1,14 @@
 ---
-title: Neural Network Library
+title: AeroNet (Neural Network Library)
 ---
 
-# [Neural Network Library](https://github.com/Logon27/Neural-Network-Library)
+# [AeroNet](https://github.com/Logon27/AeroNet)
 
 ## About The Project
 
-In the process of making my [Digit Recognition Canvas](./digit-recognition-canvas.md) I realized I had basically built an entire neural network library in the process. Albeit a simple one, I decided to take most of the code I developed for my Digit Recognition Canvas and fork it off into its own neural network library. That is what this project is. You can use this project to experiment on your own with neural networks or use it for a project of your own. It operates a lot like most modern deep learning libraries do (except with fewer features). I plan to expand this library as I learn more about deep learning, but still keep it simple enough to understand for beginners. The entire project almost exclusively uses numpy for its implementation. The only exception being scipy which is used for special function implementations to handle computational edge cases (like log1p). Feel free to experiment with the library, suggest improvements, or utilize it to make your own projects!
+In the process of making my [Digit Recognition Canvas](./digit-recognition-canvas.md) I realized I had basically built an entire neural network library in the process. Albeit a simple one, I decided to take most of the code I developed for my Digit Recognition Canvas and fork it off into its own neural network library. That is what this AeroNet is. AeroNet is an educational neural network library made with the hope of demystifying some of these modern deep learning libraries.  It is written entirely using python, numpy, and scipy. You can use this library to learn and experiment on your own with neural networks. It operates a lot like most modern deep learning libraries do (except with fewer features). I plan to expand this library as I learn more about deep learning, but still keep it simple enough to understand for beginners. Feel free to experiment with the library, suggest improvements, or utilize it to make your own projects!
 
-For a full list of functionality and usage, please check out the project on [github](https://github.com/Logon27/Neural-Network-Library).
+For a full list of functionality and usage, please check out the project on [github](https://github.com/Logon27/AeroNet).
 
 ## Creating A Virtual Environment
 
