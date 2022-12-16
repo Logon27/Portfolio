@@ -8,7 +8,7 @@ title: AeroNet (Neural Network Library)
 
 In the process of making my [Digit Recognition Canvas](./digit-recognition-canvas.md) I realized I had basically built an entire neural network library in the process. Albeit a simple one, I decided to take most of the code I developed for my Digit Recognition Canvas and fork it off into its own neural network library. That is what AeroNet is. AeroNet is an educational neural network library made with the hope of demystifying some of these modern deep learning libraries. It is written entirely using python, numpy, and scipy. You can use this library to learn and experiment on your own with neural networks. It operates a lot like most modern deep learning libraries do (except with fewer features). I plan to expand this library as I learn more about deep learning, but still keep it simple enough to understand for beginners. Feel free to experiment with the library, suggest improvements, or utilize it to make your own projects!
 
-For a full list of functionality and usage, please check out the project on [github](https://github.com/Logon27/AeroNet).
+For a full list of functionality and usage, please check out the project on [GitHub](https://github.com/Logon27/AeroNet).
 
 ## Creating A Virtual Environment
 
@@ -23,28 +23,28 @@ pip install -r requirements.txt
 ## Testing Out A Network
 
 Test your network against one of these datasets...
-```
+```bash
 # move into the training examples directory
 cd training_examples
 # then execute one of the scripts below...
 ```
 
-```
+```bash
+# Simple xor example with dense layers
 python xor.py
-```
 
-```
+# Mnist with dense layers
 python mnist.py
-```
 
-```
 # Convolutional neural network implementation for mnist
 python mnist_conv.py
-```
 
-```
 # Fully convolutional network implementation for mnist
 python mnist_fcn.py
+
+# Convolutional neural network implementation for mnist with max pooling
+# Max pooling still needs some optimization so it runs a bit slow currently
+python mnist_maxpooling.py
 ```
 
 ---
@@ -58,6 +58,7 @@ Softmax() # For output percentage predictions
 Reshape() # Modifies the shape of the numpy arrays passed between layers
 Flatten() # Flattens a numpy array into a 2D matrix with a single column
 Dropout(probability) # Randomly drops layer outputs based on a probability to prevent overfitting
+MaxPooling2D((inputDepth, inputWidth, inputHeight), kernelSize, stride=(int, int), padding=(int, int))
 
 # Activation Functions
 Sigmoid()
