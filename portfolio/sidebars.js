@@ -25,7 +25,7 @@ const sidebars = {
 
   projectsSidebar: [
     'my-projects/project-viznet',
-    'my-projects/neural-network-library',
+    'my-projects/aeronet',
     'my-projects/digit-recognition-canvas',
     'my-projects/array-sorting-visualized',
     {
