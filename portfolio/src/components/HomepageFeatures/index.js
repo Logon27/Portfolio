@@ -40,6 +40,7 @@ const FeatureList = [
       <>
         <p className={styles.miscSkills}>Docker</p>
         <p className={styles.miscSkills}>Kubernetes</p>
+        <p className={styles.miscSkills}>Azure Cloud</p>
         <p className={styles.miscSkills}>Azure Pipelines</p>
         <p className={styles.miscSkills}>React</p>
       </>

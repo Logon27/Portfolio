@@ -32,6 +32,10 @@ b[class*="navbar__title"] {
   --ifm-color-primary-lightest: #00c097;
 }
 
+[data-theme='light'] {
+  --ifm-menu-color: var(--ifm-color-content)
+}
+
 /* Had to set the same color for both themes. Not sure why. Some weird infima interaction */
 html[data-theme='dark'] footer {
   background-color: #121314;
@@ -84,3 +88,39 @@ html[data-theme='light'] footer {
   background: var(--ifm-color-emphasis-200);
   color: inherit;
 }
+
+/* Add a slight border to buttons */
+.button {
+  border: var(--ifm-button-border-width) solid #000000;
+  border-radius: var(--ifm-button-border-radius);
+}
+
+/* Start My Certs Page Styling */
+html[class*='docs-doc-id-my-certs/mycerts'] {
+  text-align: center;
+}
+
+html[class*='docs-doc-id-my-certs/mycerts'] div[class='row'] {
+  justify-content: center;
+}
+/* End My Certs Page Styling */
+
+/* Start About Page Styling */
+html[class*='docs-doc-id-about/aboutme'] #profile-picture {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 3px solid var(--ifm-color-content);
+  margin-bottom: 7px;
+}
+
+html[class*='docs-doc-id-about/aboutme'] div[class='row'] {
+  justify-content: center;
+}
+
+html[class*='docs-doc-id-about/aboutme'] h1 {
+  text-align: center;
+}
+/* End About Page Styling */

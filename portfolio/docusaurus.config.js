@@ -62,6 +62,12 @@ const config = {
             sidebarId: 'projectsSidebar'
           },
           {
+            to: 'my-certs/mycerts',
+            position: 'left',
+            label: 'My Certs',
+            sidebarId: 'myCerts'
+          },
+          {
             to: 'about/aboutme',
             position: 'left',
             label: 'About Me',

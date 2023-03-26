@@ -43,9 +43,6 @@ const sidebars = {
     'my-projects/vigenere-cipher',
     'my-projects/neural-network-canvas',
   ],
-  aboutSidebar: [
-    'about/aboutme',
-  ],
 };
 
 module.exports = sidebars;

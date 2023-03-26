@@ -1,4 +1,15 @@
-# About me
+# About Me
+
+---
+
+<img id="profile-picture" src={require('@site/static/img/profile-pics/profile-picture.png').default} width="10%" alt="profile-picture"/>
+
+<div style={{textAlign: 'center'}}>
+  <h2>Logan Zehm</h2>
+  <h3>Software Developer @ General Motors</h3>
+</div>
+
+---
 
 My name is Logan Zehm. I currently work for General Motors as a software developer. I prefer more backend or devops work, but I consider myself to be a fullstack developer. If you have ever heard the phrase "jack of all trades. master of none". I think that phrase describes me pretty well. I like to learn new things and get my hands dirty with a little bit of everything if possible. While some people like to hyperfocus in one aspect of computing I like to take a broader vision. I like to have a decent understanding of everything so I have a breadth of knowledge. This helps me understand the larger flow. If you understand all the little things then the bigger picture becomes clear. I believe this is what has made me exceedingly good at debugging and solving problems over the years.
 
