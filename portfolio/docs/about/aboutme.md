@@ -2,7 +2,7 @@
 
 ---
 
-<img id="profile-picture" src={require('@site/static/img/profile-pics/profile-picture.png').default} width="10%" alt="profile-picture"/>
+<img id="profile-picture" src={require('@site/static/img/profile-pics/profile-picture.png').default} alt="profile-picture"/>
 
 <div style={{textAlign: 'center'}}>
   <h2>Logan Zehm</h2>

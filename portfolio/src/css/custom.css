@@ -103,6 +103,17 @@ html[class*='docs-doc-id-my-certs/mycerts'] {
 html[class*='docs-doc-id-my-certs/mycerts'] div[class='row'] {
   justify-content: center;
 }
+
+/* Make badges larger on mobile screens */
+@media screen and (max-width: 996px) {
+  html[class*='docs-doc-id-my-certs/mycerts'] #azure-badge {
+    width: 45%;
+  }
+
+  html[class*='docs-doc-id-my-certs/mycerts'] #lspace-badge {
+    width: 80%;
+  }
+}
 /* End My Certs Page Styling */
 
 /* Start About Page Styling */
