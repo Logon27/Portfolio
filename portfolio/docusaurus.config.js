@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Logan Zehm Portfolio',
+  title: 'Portfolio',
   tagline: 'Check out my cool projects',
   url: 'https://logon27.github.io/',
   baseUrl: '/Portfolio/',
