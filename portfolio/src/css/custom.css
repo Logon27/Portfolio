@@ -135,3 +135,45 @@ html[class*='docs-doc-id-about/aboutme'] h1 {
   text-align: center;
 }
 /* End About Page Styling */
+
+/* Resize github icon next to titles if screen resolution is very small */
+@media screen and (max-width: 576px) {
+  #github-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+#github-icon {
+  margin-left: 12px;
+}
+
+/* Programming language list on the homepage */
+#programming-languages ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+
+#programming-languages li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border:2px solid;
+  border-color:var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] #programming-languages li {
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-color-gray-900);
+}
+
+html[data-theme='light'] #programming-languages li {
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-color-gray-100)
+}

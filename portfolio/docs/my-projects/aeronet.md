@@ -1,8 +1,13 @@
 ---
 title: AeroNet (Neural Network Library)
+hide_title: true
 ---
 
-# [AeroNet](https://github.com/Logon27/AeroNet)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="AeroNet" link="https://github.com/Logon27/AeroNet"/>
+</header>
 
 ---
 

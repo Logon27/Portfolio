@@ -1,8 +1,13 @@
 ---
 title: Huffman Coding
+hide_title: true
 ---
 
-# [Huffman Coding](https://github.com/Logon27/Huffman)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Huffman Coding" link="https://github.com/Logon27/Huffman"/>
+</header>
 
 ---
 

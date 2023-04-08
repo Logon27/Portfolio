@@ -1,8 +1,13 @@
 ---
 title: MIPS Simulator
+hide_title: true
 ---
 
-# [MIPS Simulator](https://github.com/Logon27/Mips-Simulator)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="MIPS Simulator" link="https://github.com/Logon27/Mips-Simulator"/>
+</header>
 
 ---
 

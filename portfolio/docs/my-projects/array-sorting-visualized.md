@@ -1,8 +1,13 @@
 ---
 title: Array Sorting Visualized
+hide_title: true
 ---
 
-# [Array Sorting Visualized](https://github.com/Logon27/ArraySortingVisualized)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Array Sorting Visualized" link="https://github.com/Logon27/ArraySortingVisualized"/>
+</header>
 
 ---
 

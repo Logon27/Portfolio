@@ -1,8 +1,13 @@
 ---
 title: Socket Chatroom
+hide_title: true
 ---
 
-# [Socket Chatroom](https://github.com/Logon27/Socket-Chatroom)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Socket Chatroom" link="https://github.com/Logon27/Socket-Chatroom"/>
+</header>
 
 ---
 

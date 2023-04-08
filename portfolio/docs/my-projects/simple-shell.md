@@ -1,8 +1,13 @@
 ---
 title: Simple Shell
+hide_title: true
 ---
 
-# [Simple Shell](https://github.com/Logon27/Simple-Shell)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Simple Shell" link="https://github.com/Logon27/Simple-Shell"/>
+</header>
 
 ---
 

@@ -1,8 +1,13 @@
 ---
 title: Neural Network Canvas (Old)
+hide_title: true
 ---
 
-# [Neural Network Canvas (Old)](https://github.com/Logon27/Neural-Network-Canvas)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Neural Network Canvas (Old)" link="https://github.com/Logon27/Neural-Network-Canvas"/>
+</header>
 
 ---
 

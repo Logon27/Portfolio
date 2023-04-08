@@ -1,9 +1,14 @@
 ---
 title: Project Viznet
 toc_max_heading_level: 2
+hide_title: true
 ---
 
-# [Project Viznet](https://github.com/Logon27/Project-VizNet)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Project Viznet" link="https://github.com/Logon27/Project-VizNet"/>
+</header>
 
 ---
 

@@ -1,8 +1,13 @@
 ---
 title: C-Archive
+hide_title: true
 ---
 
-# [C-Archive](https://github.com/Logon27/C-Archive)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="C-Archive" link="https://github.com/Logon27/C-Archive"/>
+</header>
 
 ---
 

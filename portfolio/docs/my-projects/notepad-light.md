@@ -1,8 +1,13 @@
 ---
 title: Notepad-Light
+hide_title: true
 ---
 
-# [Notepad-Light](https://github.com/Logon27/Notepad-Light)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Notepad-Light" link="https://github.com/Logon27/Notepad-Light"/>
+</header>
 
 ---
 

@@ -8,16 +8,18 @@ const FeatureList = [
     Svg: require('@site/static/img/programming-monitor.svg').default,
     description: (
       <>
-        <span className={styles.programmingListContainer}>
-          <span>
-            <p className={styles.programmingList}>Java - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤ ⬤</span></p>
-            <p className={styles.programmingList}>C - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤ ⬤</span></p>
-            <p className={styles.programmingList}>Python - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤ ⬤</span> ⬤</p>
-            <p className={styles.programmingList}>SQL - <span className={styles.programmingDotFull}>⬤ ⬤ ⬤</span> ⬤ ⬤</p>
-            <p className={styles.programmingList}>TypeScript - <span className={styles.programmingDotFull}>⬤ ⬤</span> ⬤ ⬤ ⬤</p>
-            <p className={styles.proficiencyNote}>(Proficiency ranked 1 to 5)</p>
-          </span>
-        </span>
+      <div id="programming-languages">
+          <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>TypeScript</li>
+              <li>SQL</li>
+              <li>C</li>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>Scheme</li>
+          </ul>
+      </div>
       </>
     ),
   },
@@ -42,7 +44,6 @@ const FeatureList = [
         <p className={styles.miscSkills}>Kubernetes</p>
         <p className={styles.miscSkills}>Azure Cloud</p>
         <p className={styles.miscSkills}>Azure Pipelines</p>
-        <p className={styles.miscSkills}>React</p>
       </>
     ),
   },

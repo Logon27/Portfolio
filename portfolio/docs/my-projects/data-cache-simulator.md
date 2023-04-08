@@ -1,8 +1,13 @@
 ---
 title: Data Cache Simulator
+hide_title: true
 ---
 
-# [Data Cache Simulator](https://github.com/Logon27/Data-Cache-Simulator)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Data Cache Simulator" link="https://github.com/Logon27/Data-Cache-Simulator"/>
+</header>
 
 ---
 

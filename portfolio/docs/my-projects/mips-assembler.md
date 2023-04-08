@@ -1,8 +1,13 @@
 ---
 title: MIPS Assembler
+hide_title: true
 ---
 
-# [MIPS Assembler](https://github.com/Logon27/Mips-Assembler)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="MIPS Assembler" link="https://github.com/Logon27/Mips-Assembler"/>
+</header>
 
 ---
 

@@ -1,9 +1,14 @@
 ---
 title: Digit Recognition Canvas
 toc_max_heading_level: 2
+hide_title: true
 ---
 
-# [Digit Recognition Canvas](https://github.com/Logon27/Digit-Recognition-Canvas)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Digit Recognition Canvas" link="https://github.com/Logon27/Digit-Recognition-Canvas"/>
+</header>
 
 ---
 

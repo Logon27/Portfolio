@@ -1,8 +1,13 @@
 ---
 title: Vigenere Cipher
+hide_title: true
 ---
 
-# [Vigenere Cipher](https://github.com/Logon27/VigenereCipher)
+import GithubIcon from '@site/src/components/GithubIcon';
+
+<header>
+    <GithubIcon title="Vigenere Cipher" link="https://github.com/Logon27/VigenereCipher"/>
+</header>
 
 ---
 
