@@ -25,11 +25,11 @@ jobs:
         cache: 'npm'
         cache-dependency-path: portfolio/package-lock.json
     - run: npm ci
-    #Build the static files using docusaurus
+    # Build the static files using docusaurus
     - run: npm run build
     - name: Setup Pages
-      uses: actions/configure-pages@v1
-    #Automatically uploads the static files to an artifact called github-pages
+      uses: actions/configure-pages@v3
+    # Automatically uploads the static files to an artifact called github-pages
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v1
       with:
