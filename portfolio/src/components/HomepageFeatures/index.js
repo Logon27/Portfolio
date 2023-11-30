@@ -15,7 +15,7 @@ const FeatureList = [
               <li>TypeScript</li>
               <li>SQL</li>
               <li>C</li>
-              <li>React</li>
+              <li>Go</li>
               <li>JavaScript</li>
               <li>Scheme</li>
           </ul>
