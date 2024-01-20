@@ -17,8 +17,16 @@ html[class*='docs-doc-id-about/aboutme'] #profile-name {
     text-align: center;
 }
 
-html[class*='docs-doc-id-about/aboutme'] #profile-text {
+html[class*='docs-doc-id-about/aboutme'][data-theme='dark'] #profile-text {
     background-color: #1e1e20; /* #1b1b1d */
+    border: 2px solid #37373a;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 1.04em;
+}
+
+html[class*='docs-doc-id-about/aboutme'][data-theme='light'] #profile-text {
+    background-color: #e9e6e6; /* #1b1b1d */
     border: 2px solid #37373a;
     border-radius: 25px;
     padding: 20px;
@@ -34,7 +42,7 @@ html[class*='docs-doc-id-about/aboutme'] h1 {
 }
 
 html[class*='docs-doc-id-about/aboutme'] hr {
-    background-image: linear-gradient(to right, var(--ifm-background-color), var(--ifm-color-primary), var(--ifm-color-primary), var(--ifm-color-primary), var(--ifm-background-color));
+    background-image: linear-gradient(to right, var(--ifm-background-color), 20%, var(--ifm-color-primary), 80%, var(--ifm-background-color));
 }
 
 

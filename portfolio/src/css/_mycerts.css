@@ -1,0 +1,22 @@
+html[class*='docs-doc-id-my-certs/mycerts'] {
+    text-align: center;
+}
+
+html[class*='docs-doc-id-my-certs/mycerts'] div[class='row'] {
+    justify-content: center;
+}
+
+/* Make badges larger on mobile screens */
+@media screen and (max-width: 996px) {
+    html[class*='docs-doc-id-my-certs/mycerts'] #azure-badge {
+        width: 45%;
+    }
+
+    html[class*='docs-doc-id-my-certs/mycerts'] #lspace-badge {
+        width: 80%;
+    }
+}
+
+html[class*='docs-doc-id-my-certs/mycerts'] hr {
+    background-image: linear-gradient(to right, var(--ifm-background-color), 20%, var(--ifm-color-content), 80%, var(--ifm-background-color));
+}

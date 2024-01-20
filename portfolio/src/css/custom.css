@@ -4,7 +4,8 @@
  * work well for content-centric websites.
  */
 
- @import './_aboutme';
+@import './_aboutme';
+@import './_mycerts';
 
 /* You can override the default Infima variables here. */
 :root {
@@ -99,27 +100,6 @@ html[data-theme='light'] footer {
   border-radius: var(--ifm-button-border-radius);
 }
 
-/* Start My Certs Page Styling */
-html[class*='docs-doc-id-my-certs/mycerts'] {
-  text-align: center;
-}
-
-html[class*='docs-doc-id-my-certs/mycerts'] div[class='row'] {
-  justify-content: center;
-}
-
-/* Make badges larger on mobile screens */
-@media screen and (max-width: 996px) {
-  html[class*='docs-doc-id-my-certs/mycerts'] #azure-badge {
-    width: 45%;
-  }
-
-  html[class*='docs-doc-id-my-certs/mycerts'] #lspace-badge {
-    width: 80%;
-  }
-}
-/* End My Certs Page Styling */
-
 /* Resize github icon next to titles if screen resolution is very small */
 @media screen and (max-width: 576px) {
   #github-icon {
@@ -172,4 +152,9 @@ html[data-theme='light'] #programming-languages li {
 /* Add small gray border to top navbar */
 .navbar--fixed-top {
   border-bottom: 1px solid var(--ifm-color-gray-600);
+}
+
+/* Make all horizontal dividers slightly thicker */
+hr {
+  height: 2px;
 }
