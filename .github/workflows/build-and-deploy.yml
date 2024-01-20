@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [v16.16.0]
+        node-version: [v20.10.0]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -48,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@main
+        uses: actions/deploy-pages@v4.0.3
