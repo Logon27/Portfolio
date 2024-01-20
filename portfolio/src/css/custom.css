@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+ @import './_aboutme';
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #009474;
@@ -15,6 +17,8 @@
   --ifm-color-primary-lightest: #00c097;
 
   --ifm-h4-font-size: 1.1rem;
+
+  --ifm-light-border-color: #00c097;
 }
 
 b[class*="navbar__title"] {
@@ -116,26 +120,6 @@ html[class*='docs-doc-id-my-certs/mycerts'] div[class='row'] {
 }
 /* End My Certs Page Styling */
 
-/* Start About Page Styling */
-html[class*='docs-doc-id-about/aboutme'] #profile-picture {
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  border: 3px solid var(--ifm-color-content);
-  margin-bottom: 7px;
-}
-
-html[class*='docs-doc-id-about/aboutme'] div[class='row'] {
-  justify-content: center;
-}
-
-html[class*='docs-doc-id-about/aboutme'] h1 {
-  text-align: center;
-}
-/* End About Page Styling */
-
 /* Resize github icon next to titles if screen resolution is very small */
 @media screen and (max-width: 576px) {
   #github-icon {
@@ -176,4 +160,11 @@ html[data-theme='dark'] #programming-languages li {
 html[data-theme='light'] #programming-languages li {
   color: var(--ifm-font-color-base);
   background: var(--ifm-color-gray-100)
+}
+
+/* Style sidebar to have bars for depth level */
+.menu > .menu__list .menu__list {
+  border-left: 2px solid var(--ifm-menu-color-active);
+  margin-left: 20px;
+  padding-left: 10px;
 }

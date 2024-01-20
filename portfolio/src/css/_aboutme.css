@@ -1,0 +1,40 @@
+/* 
+ Based on file format used in...
+ https://github.com/redis-developer/redis-developer.github.io/tree/0c8fd2029812eb621874795f87daea6233c1fc4e/src/css
+*/
+
+html[class*='docs-doc-id-about/aboutme'] #profile-picture {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 3px solid var(--ifm-color-content);
+    margin-bottom: 7px;
+}
+
+html[class*='docs-doc-id-about/aboutme'] #profile-name {
+    text-align: center;
+}
+
+html[class*='docs-doc-id-about/aboutme'] #profile-text {
+    background-color: #1e1e20; /* #1b1b1d */
+    border: 2px solid #37373a;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 1.04em;
+}
+
+html[class*='docs-doc-id-about/aboutme'] div[class='row'] {
+    justify-content: center;
+}
+
+html[class*='docs-doc-id-about/aboutme'] h1 {
+    text-align: center;
+}
+
+html[class*='docs-doc-id-about/aboutme'] hr {
+    background-image: linear-gradient(to right, var(--ifm-background-color), var(--ifm-color-primary), var(--ifm-color-primary), var(--ifm-color-primary), var(--ifm-background-color));
+}
+
+
