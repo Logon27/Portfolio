@@ -24,7 +24,7 @@ Geero is a neural network library built using [Google Jax](https://github.com/go
 | [mnist_fcnn.py](https://github.com/Logon27/Geero/blob/main/training_examples/mnist_fcnn.py) | MNIST | MNIST training example that utilizes a fully convolutional neural network |
 | [fashion_mnist.py](https://github.com/Logon27/Geero/blob/main/training_examples/fashion_mnist.py) | FASHION MNIST | FASHION MNIST training example that utilizes a convolutional neural network |
 | [cifar10.py](https://github.com/Logon27/Geero/blob/main/training_examples/cifar10.py) | CIFAR-10 | CIFAR-10 training example that utilizes a convolutional neural network |
-| [resnet.py](./training_examples/resnet.py) | CIFAR-10 | CIFAR-10 training example that utilizes a resnet of my own creation. Test set accuracy is around 90% |
+| [resnet.py](https://github.com/Logon27/Geero/blob/main/training_examples/resnet.py) | CIFAR-10 | CIFAR-10 training example that utilizes a resnet of my own creation. Test set accuracy is around 90% |
 
 ## CIFAR10 Resnet Example - 91.40% Accuracy
 <img src={require('@site/static/img/my-projects/resnet-accuracy.png').default} />
