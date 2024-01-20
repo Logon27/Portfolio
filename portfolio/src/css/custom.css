@@ -168,3 +168,8 @@ html[data-theme='light'] #programming-languages li {
   margin-left: 20px;
   padding-left: 10px;
 }
+
+/* Add small gray border to top navbar */
+.navbar--fixed-top {
+  border-bottom: 1px solid var(--ifm-color-gray-600);
+}
